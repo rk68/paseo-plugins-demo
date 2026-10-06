@@ -7,7 +7,7 @@ function multiply(a, b) {
 }
 
 function round(value) {
-  return Math.round(value);
+  return Math.round(value * 100) / 100;
 }
 
 module.exports = { add, multiply, round };
