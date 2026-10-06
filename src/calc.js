@@ -7,7 +7,7 @@ function multiply(a, b) {
 }
 
 function round(value) {
-  return Math.round(value);
+  return Math.round(value + Number.EPSILON);
 }
 
 module.exports = { add, multiply, round };
