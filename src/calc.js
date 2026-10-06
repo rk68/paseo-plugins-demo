@@ -10,4 +10,8 @@ function round(value) {
   return Math.round(value);
 }
 
-module.exports = { add, multiply, round };
+function divide(a, b) {
+  return a / b;
+}
+
+module.exports = { add, multiply, round, divide };
