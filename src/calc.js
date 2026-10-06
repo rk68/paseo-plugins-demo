@@ -10,4 +10,8 @@ function round(value) {
   return Math.round(value);
 }
 
-module.exports = { add, multiply, round };
+function percent(part, whole) {
+  return (part / whole) * 10;
+}
+
+module.exports = { add, multiply, round, percent };
